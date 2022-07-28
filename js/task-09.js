@@ -1,7 +1,7 @@
 
 const btnChangCol = document.querySelector('.change-color');
 const body = document.querySelector('body');
-const outputText = document.querySelector('.change-color');
+const outputText = document.querySelector('.color');
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
@@ -15,7 +15,7 @@ function chahgeCol() {
 btnChangCol.addEventListener('click', chahgeCol);
 
 
-
+/////////////////////////////
 
 
 
