@@ -3,7 +3,7 @@ form.addEventListener('submit', onFormSubmit)
 
 function onFormSubmit(event) {
   event.preventDefault();
-    console.log('сабмит формы')
+    //console.log('сабмит формы')
     const formEl = event.currentTarget.elements;
     console.log(formEl)
 
@@ -15,8 +15,11 @@ function onFormSubmit(event) {
         password
     }
   
-    console.log(formData)
-    event.currentTarget.reset();
+  if (mail !== "" && password !== "") {
+     event.currentTarget.reset();
+  }
+
+ 
 }
 
 
