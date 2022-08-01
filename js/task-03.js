@@ -15,10 +15,11 @@ const images = [
 
 const galleryItemEl = images.map(({ url, alt }) =>
   `<li><img src=${url} alt=${alt} width=300 height=200></li>`
-).join(" ");
+)
+.join(" ");
 console.log(galleryItemEl);
-
-
+//
+//
 const galleryList = document.querySelector('.gallery');
 galleryList.insertAdjacentHTML("beforebegin", galleryItemEl)
 console.log(galleryList);

@@ -15,14 +15,16 @@ function onFormSubmit(event) {
         password
     }
   
+  
   if (mail !== "" && password !== "") {
-     event.currentTarget.reset();
+    event.currentTarget.reset();
+    
   }
-
+  else {
+    alert('ЗАПОВНИ ВСІ ПОЛЯ ВВОДУ!!!');
+  }
  
 }
-
-
 
 
 
