@@ -16,20 +16,3 @@ btnIncrement.addEventListener('click', () => {
     counterValue += 1;
     spanValue.textContent = counterValue;
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
